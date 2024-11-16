@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Quản lý">
+        <menu>
+            <item
+                android:id="@+id/nav_quan_ly_san_pham"
+                android:icon="@drawable/ic_product"
+                android:title="Quản lý sản phẩm" />
+            <item
+                android:id="@+id/nav_gioi_thieu"
+                android:icon="@drawable/ic_info"
+                android:title="Giới thiệu" />
+        </menu>
+    </item>
+
+    <item android:title="Khác">
+        <menu>
+            <item
+                android:id="@+id/nav_cai_dat"
+                android:icon="@drawable/ic_settings"
+                android:title="Cài đặt" />
+            <item
+                android:id="@+id/nav_dang_xuat"
+                android:icon="@drawable/ic_logout"
+                android:title="Đăng xuất" />
+        </menu>
+    </item>
+
+</menu>
